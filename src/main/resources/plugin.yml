@@ -1,0 +1,15 @@
+name: HandRefill
+version: "1.0.0"
+main: com.example.handrefill.HandRefillPlugin
+api-version: "26.1"
+description: "Auto-refills your main hand from inventory when the held stack runs out; shows a live count on the action bar"
+author: UnName
+commands:
+  handrefill:
+    description: Toggle or check HandRefill status
+    usage: /handrefill <toggle|status>
+    permission: handrefill.use
+permissions:
+  handrefill.use:
+    description: Allows using HandRefill auto-refill and /handrefill command
+    default: true
